@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/produto.css">
+    <title>FONE DE OUVIDO</title>
+</head>
+<body>
+
+    <header>
+        <div class="voltar" onclick="links('index.html')"></div>
+
+    </header>
+
+    <main>
+
+        <form>
+        <div class="quedroproduto">
+            <div class="cardfoto">
+                <img src="./img/Fone de Ouvido Bluetooth Headphone Tune 500BT preto - JBL (1).jpg" alt="FONE1">
+            </div>
+
+          
+                <div class="info">
+                    <div class="conteiner">
+                        <div class="nomepreduto">FONE DE OUVIDO</div>
+                        <div class="preco">R$ 90,50</div>
+                    </div>
+
+
+                    <label for="cor" class="labecss">SELECIONE A COR:</label>
+                    <select  id="cor" >
+                        <option value="vermelho">VERMELHO</option>
+                        <option value="azul">AZUL</option>
+                        <option value="preto">PRETO</option>
+                        <option value="amarelo">AMARELO</option>
+                        <option value="verde">VERDE</option>
+                    </select>
+
+                    <input type="number" value="1" min="1" class="inputcss">
+
+                    <button type="button" class="btcom" onclick="pedido()" >COMPRAR</button>
+
+                    <label for="tit" class="labeccs">O valor total sera de :</label>
+                    <div class="mortrarvalor" id="tit"></div>
+                </div>
+           
+        </div>
+    </form>
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+   <script src="./js/produto.js"></script>
+</body>
+</html>
